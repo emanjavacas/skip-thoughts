@@ -441,5 +441,3 @@ def gru_layer(tparams, state_below, options, prefix='gru', mask=None, **kwargs):
                                 strict=True)
     rval = [rval]
     return rval
-
-
