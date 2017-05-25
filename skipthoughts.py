@@ -6,7 +6,10 @@ import os
 import theano
 import theano.tensor as tensor
 
-import _pickle as pkl
+try:
+    import _pickle as pkl
+except:
+    import pickle as pkl
 import numpy
 import copy
 import nltk
